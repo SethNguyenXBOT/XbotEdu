@@ -35,4 +35,11 @@ public class DriveSubsystem {
 	
 	// Add methods below that commands will call into to manipulate the drive motors
 	// Eg: public void tankDrive(double leftPower, double rightPower) {
+	
+	public void tankDrive(double leftpower, double rightPower){
+		frontLeft.set(leftpower);
+		frontRight.set(rightPower);
+		rearLeft.set(leftpower);
+		rearRight.set(rightPower);
+	}
 }

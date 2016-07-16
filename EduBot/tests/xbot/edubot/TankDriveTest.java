@@ -1,4 +1,4 @@
-package xbot.edubot;
+ 	package xbot.edubot;
 
 import org.junit.Test;
 
